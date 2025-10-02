@@ -1,0 +1,30 @@
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.products {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.product {
+  width: 250px;
+  min-height: 200px;
+  border: 1px solid;
+  padding: 10px;
+  text-align: center;
+}
+.product img {
+  width: 180px;
+  height: 150px;
+}
